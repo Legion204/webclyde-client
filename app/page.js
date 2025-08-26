@@ -1,4 +1,3 @@
-
 import CodeAdapts from "./sections/CodeAdaptsSection";
 import HeroSection from "./sections/HeroSection";
 import PortfolioSection from "./sections/PortfolioSection";

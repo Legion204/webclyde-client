@@ -22,13 +22,13 @@ const Services = () => {
                     <Image src={AIC} alt='AI Consulting & Implementation'></Image>
                     <h2 className='font-normal text-2xl'>AI Consulting & Implementation</h2>
                     <p className='font-normal text-base text-[#677489]'>We help you harness AI to solve real business problems, not just chase trends. From chatbots and recommendation engines to process automation and predictive analytics, we build...</p>
-                    <Link className='font-semibold text-[#AD609E] flex items-center gap-1' href={'/'}>Learn More<SlArrowRight /></Link>
+                    <Link className='font-semibold text-[#AD609E] flex items-center gap-1' href={'/'}>Learn More<SlArrowRight/></Link>
                 </div>
                 <div className='flex flex-col gap-5 bg-[#00BDB233] p-12 md:p-16 lg:p-18  rounded-2xl'>
                     <Image src={MLI} alt='Machine Learning & Intelligent Systems'></Image>
                     <h2 className='font-normal text-2xl'>Machine Learning & Intelligent Systems</h2>
                     <p className='font-normal text-base text-[#677489]'>We design and train machine learning models that adapt, learn, and power smarter decisions from custom NLP tools to computer vision...</p>
-                    <Link className='font-semibold text-[#00BDB2] flex items-center gap-1' href={'/'}>Learn More<SlArrowRight /></Link>
+                    <Link className='font-semibold text-[#00BDB2] flex items-center gap-1 ' href={'/'}>Learn More<SlArrowRight /></Link>
                 </div>
                 <div className='flex flex-col gap-5 bg-[#F5962033] p-12 md:p-16 lg:p-18  rounded-2xl'>
                     <Image src={CAPI} alt='Custom API Development'></Image>
