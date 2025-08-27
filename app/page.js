@@ -1,3 +1,4 @@
+import AboutUs from "./sections/AboutUs";
 import CodeAdapts from "./sections/CodeAdaptsSection";
 import HeroSection from "./sections/HeroSection";
 import PortfolioSection from "./sections/PortfolioSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <CodeAdapts></CodeAdapts>
       <Services></Services>
       <PortfolioSection></PortfolioSection>
+      <AboutUs></AboutUs>
     </div>
   );
 }

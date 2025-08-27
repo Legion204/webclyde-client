@@ -9,7 +9,7 @@ import arrowIcon from '../../public/img/arrow.png'
 
 const CodeAdapts = () => {
     return (
-        <div className='container mx-auto flex flex-col items-center mt-32'>
+        <section className='container mx-auto flex flex-col items-center'>
             <div className='flex flex-col justify-center items-center gap-8 text-center'>
                 <h3 className='bg-[#ffe7d2] px-6 py-1 rounded-4xl'>Code Adapts</h3>
                 <h2 className='font-bold text-5xl text-center'>Built To Fit Your Vision,Not The <br /><span className='text-[#3254ec]'> Other Way Around</span></h2>
@@ -43,7 +43,7 @@ const CodeAdapts = () => {
                 </div>
             </div>
             <Image className='mt-8' src={arrowIcon} alt='arrow-icon'></Image>
-        </div>
+        </section>
     )
 }
 
